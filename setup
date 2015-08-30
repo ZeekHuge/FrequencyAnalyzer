@@ -1,0 +1,20 @@
+#!/bin/bash
+# Purpose:
+# To install all the dependencies and the frequencyAnalyser itself
+
+if [[ $EUID -ne 0 ]];then
+	echo "Run this script as root"
+	exit 1
+fi
+
+cd dependencies/
+uz fftw-3.3.4.tar.gz
+cd fftw-3.3.4/
+make clean
+./conifgure
+make
+make install
+cd ../../
+gcc src/frequencyAnalyzer.c -lm -lfftw3 -o Frequency_Analyzer 
+clear
+echo "Please not that you will have to execute the Frequency_Analyzer command as root"
