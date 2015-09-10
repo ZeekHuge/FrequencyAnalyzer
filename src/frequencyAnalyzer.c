@@ -1,11 +1,11 @@
 //*************************************************************
 //
-//	NOTE: Only support LINUX os
+//	NOTE: Only supports LINUX os
 //
 //	This code is written by ZeekHuge, as an exercise to understand
-//	and learn about the fft and using fftw library.
+//      the working of fft and to understand the use fftw library.
 //
-//	This program have been throughly tested for 
+//	This program have been thoroughly tested for 
 //	wav files on Ubuntu 14.04 os.
 //	
 //	
@@ -14,7 +14,7 @@
 //				1.Only .wav files supported
 //				2.Can read only PCM 1 encrypted files
 //				3.Only supports LINUX os
-//				4.Do not supports more than 2 channels
+//				4.No support for more than 2 channels
 //				5.Only supports 16 bit samples
 //
 //	Supported channels :
@@ -24,13 +24,13 @@
 //
 //	To compile the program :
 //				Execute the setup file as root.
-//				setup is present in the parent directory.
+//				(setup file is present in the parent directory)
 //
 //	Example : HOME/ID3Editor:$ sudo ./setup
 //
 //
 // 	To Start the program : 	run the Frequency_Analyzer command as sudo
-//				on your terminal/CMD with the file 
+//				on your terminal/CMD with the path to the wav file as 
 //				parameter
 //	
 //	Example: sudo Frequency_Analyzer fileToRead.wav (LINUX) 
