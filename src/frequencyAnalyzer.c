@@ -3,9 +3,9 @@
 //	NOTE: Only supports LINUX os
 //
 //	This code is written by ZeekHuge, as an exercise to understand
-//      the working of fft and to understand the use fftw library.
+//      the working of fft and to understand the use of fftw library.
 //
-//	This program have been thoroughly tested for 
+//	This program has been thoroughly tested for 
 //	wav files on Ubuntu 14.04 os.
 //	
 //	
